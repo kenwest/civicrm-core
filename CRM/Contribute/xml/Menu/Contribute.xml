@@ -229,6 +229,8 @@
     <title>Cancel Subscription</title>
     <page_callback>CRM_Contribute_Form_CancelSubscription</page_callback>
     <access_arguments>make online contributions</access_arguments>
+    <is_ssl>true</is_ssl>
+    <is_public>true</is_public>
   </item>
   <item>
     <path>civicrm/contribute/onbehalf</path>
@@ -240,12 +242,16 @@
     <title>Update Billing Details</title>
     <page_callback>CRM_Contribute_Form_UpdateBilling</page_callback>
     <access_arguments>make online contributions</access_arguments>
+    <is_ssl>true</is_ssl>
+    <is_public>true</is_public>
   </item>
   <item>
     <path>civicrm/contribute/updaterecur</path>
     <title>Update Subscription</title>
     <page_callback>CRM_Contribute_Form_UpdateSubscription</page_callback>
     <access_arguments>make online contributions</access_arguments>
+    <is_ssl>true</is_ssl>
+    <is_public>true</is_public>
   </item>
   <item>
     <path>civicrm/contribute/subscriptionstatus</path>
